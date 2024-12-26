@@ -9,6 +9,7 @@ public class App {
         Person me = new Person("Ruslan", "Lomaka");
 
         Gson myGson = new GsonBuilder().setPrettyPrinting().create();
+        
 
         String ruslanLomaka = myGson.toJson(me);
 
